@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background: url('bg.jpg');
+    background-size: cover;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgba(229, 142, 50, 0.83);
+    position: sticky;
+    top: 0;
+}
+#logo{
+    margin: 6px;
+}
+ul{
+    margin: 6px;
+}
+#search{
+    width: 170px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(249, 249, 249);
+    height: 25px;
+    padding: 4px;
+    margin-left: 550px;
+}
+ul li{
+    display: inline;
+    margin: 0px 15px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
+main{
+    height: 200vh;
+}
+h1{
+    margin-top: 10px;
+    margin-left: 120px;
+}
+h2{
+    margin-top: 10px;
+    color: white;
+    margin-left: 120px;
+}
+.food{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.Pizza {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #ffc089;
+    cursor: pointer;
+}
+.Roll {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #ffc089;
+    cursor: pointer;
+}
+.Biryani {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #ffc089;
+    cursor: pointer;
+}
+.Pizza:hover {
+    background-color: #ffa556;
+    border: 2px solid black;
+}
+.Pizza:active {
+    background-color: #ff7803;
+    border: 2px solid black;
+}
+.Roll:hover {
+    background-color: #ffa556;
+    border: 2px solid black;
+}
+.Roll:active {
+    background-color: #ff7803;
+    border: 2px solid black;
+}
+.Biryani:hover {
+    background-color: #ffa556;
+    border: 2px solid black;
+}
+.Biryani:active {
+    background-color: #ff7803;
+    border: 2px solid black;
+}
+h3{
+    text-align: center;
+}
+#foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #000000e8;
+}
+.Fimg{
+    margin: 10px;
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+.f2{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+.TnC{
+    text-align: center;
+}
+.Fa{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: larger;
+}
